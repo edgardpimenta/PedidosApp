@@ -1,0 +1,12 @@
+C:\Projetos\Coti Exercicios\PedidosApp\PedidosApp\PedidosAppDomain\bin\Debug\net10.0\PedidosAppDomain.deps.json
+C:\Projetos\Coti Exercicios\PedidosApp\PedidosApp\PedidosAppDomain\bin\Debug\net10.0\PedidosAppDomain.dll
+C:\Projetos\Coti Exercicios\PedidosApp\PedidosApp\PedidosAppDomain\bin\Debug\net10.0\PedidosAppDomain.pdb
+C:\Projetos\Coti Exercicios\PedidosApp\PedidosApp\PedidosAppDomain\obj\Debug\net10.0\PedidosAppDomain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\Coti Exercicios\PedidosApp\PedidosApp\PedidosAppDomain\obj\Debug\net10.0\PedidosAppDomain.AssemblyInfoInputs.cache
+C:\Projetos\Coti Exercicios\PedidosApp\PedidosApp\PedidosAppDomain\obj\Debug\net10.0\PedidosAppDomain.AssemblyInfo.cs
+C:\Projetos\Coti Exercicios\PedidosApp\PedidosApp\PedidosAppDomain\obj\Debug\net10.0\PedidosAppDomain.csproj.CoreCompileInputs.cache
+C:\Projetos\Coti Exercicios\PedidosApp\PedidosApp\PedidosAppDomain\obj\Debug\net10.0\PedidosAppDomain.dll
+C:\Projetos\Coti Exercicios\PedidosApp\PedidosApp\PedidosAppDomain\obj\Debug\net10.0\refint\PedidosAppDomain.dll
+C:\Projetos\Coti Exercicios\PedidosApp\PedidosApp\PedidosAppDomain\obj\Debug\net10.0\PedidosAppDomain.pdb
+C:\Projetos\Coti Exercicios\PedidosApp\PedidosApp\PedidosAppDomain\obj\Debug\net10.0\ref\PedidosAppDomain.dll
+C:\Projetos\Coti Exercicios\PedidosApp\PedidosApp\PedidosAppDomain\obj\Debug\net10.0\PedidosAppDomain.csproj.AssemblyReference.cache

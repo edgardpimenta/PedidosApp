@@ -1,0 +1,5 @@
+C:\Projetos\Coti Exercicios\PedidosApp\PedidosApp\PedidosApp.Infra.Data\obj\Debug\net10.0\PedidosApp.Infra.Data.csproj.AssemblyReference.cache
+C:\Projetos\Coti Exercicios\PedidosApp\PedidosApp\PedidosApp.Infra.Data\obj\Debug\net10.0\PedidosApp.Infra.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\Coti Exercicios\PedidosApp\PedidosApp\PedidosApp.Infra.Data\obj\Debug\net10.0\PedidosApp.Infra.Data.AssemblyInfoInputs.cache
+C:\Projetos\Coti Exercicios\PedidosApp\PedidosApp\PedidosApp.Infra.Data\obj\Debug\net10.0\PedidosApp.Infra.Data.AssemblyInfo.cs
+C:\Projetos\Coti Exercicios\PedidosApp\PedidosApp\PedidosApp.Infra.Data\obj\Debug\net10.0\PedidosApp.Infra.Data.csproj.CoreCompileInputs.cache

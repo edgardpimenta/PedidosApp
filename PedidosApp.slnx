@@ -1,0 +1,15 @@
+<Solution>
+  <Folder Name="/1- Application/">
+    <Project Path="PedidosApp/PedidosApp.csproj" />
+  </Folder>
+  <Folder Name="/2- Domain/">
+    <Project Path="PedidosAppDomain/PedidosAppDomain.csproj" />
+  </Folder>
+  <Folder Name="/3- Infrastructure/">
+    <Project Path="PedidosApp.Infra.Data/PedidosApp.Infra.Data.csproj" />
+  </Folder>
+  <Folder Name="/4- Tests/" />
+  <Folder Name="/Itens de Solução/">
+    <File Path="docker-compose.yml" />
+  </Folder>
+</Solution>
