@@ -1,41 +1,47 @@
-﻿using PedidosApp.Domain.Entities;
+﻿using MongoDB.Driver;
+using PedidosApp.Domain.Entities;
 using PedidosApp.Domain.Interfaces.Repositories;
+using PedidosApp.Infra.Data.Contexts;
 using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace PedidosApp.Infra.Data.Repositories
 {
-    public class PedidoRepository : IPedidoRepository
+    public class PedidoRepository : IBaseRepository<Pedido, Guid>
     {
+        private readonly IMongoCollection<Pedido> _pedidos;
+
+        public PedidoRepository(MongoDBContext context)
+        {
+            _pedidos = context.Pedidos;
+        }
+
         public void Add(Pedido entity)
         {
-            throw new NotImplementedException();
+            _pedidos.InsertOne(entity);
         }
 
         public void Delete(Guid id)
         {
-            throw new NotImplementedException();
+            var filter = Builders<Pedido>.Filter.Eq(p => p.Id, id);
+            _pedidos.DeleteOne(filter);
         }
 
         public List<Pedido> FindAll()
         {
-            throw new NotImplementedException();
-        }
-
-        public List<Pedido> FindByCliente(Guid clienteId)
-        {
-            throw new NotImplementedException();
+            return _pedidos.Find(_ => true).ToList();
         }
 
         public Pedido? FindById(Guid id)
         {
-            throw new NotImplementedException();
+            var filter = Builders<Pedido>.Filter.Eq(p => p.Id, id);
+            return _pedidos.Find(filter).FirstOrDefault();
         }
 
         public void Update(Pedido entity)
         {
-            throw new NotImplementedException();
+            var filter = Builders<Pedido>.Filter.Eq(p => p.Id, entity.Id);
+            _pedidos.ReplaceOne(filter, entity);
         }
     }
 }

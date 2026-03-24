@@ -10,8 +10,4 @@
     <ProjectReference Include="..\PedidosAppDomain\PedidosAppDomain.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Repositories\" />
-  </ItemGroup>
-
 </Project>
